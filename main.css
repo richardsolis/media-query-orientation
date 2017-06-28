@@ -1,6 +1,6 @@
 body {
 	display: flex;
-	
+
  }
 
 .box {
@@ -17,5 +17,8 @@ body {
  }
 
  @media(orientation:portrait ){
- 	flex-direction: column;
+ 	body {
+ 		flex-direction: column;
+ 	}
+ 	
  }
